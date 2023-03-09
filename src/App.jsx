@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div>
-      <main className='bg-white px-10'>
+      <main className='bg-white px-10 md:px-20 lg:px-40'>
 
         <section className=' min-h-screen'>
 
@@ -37,9 +37,9 @@ function App() {
           </nav>
 
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium'>Samuel Bernardo</h2>
-            <h3 className='text-2xl py-2'>Desenvolvedor Front-End Jr.</h3>
-            <p className='text-md py-5 leading-8 text-gray-600'>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Samuel Bernardo</h2>
+            <h3 className='text-2xl py-2 md:text-3xl'>Desenvolvedor Front-End Jr.</h3>
+            <p className='text-md py-5 leading-8 text-gray-600 md:text-xl max-w-xl mx-auto'>
               sou um Desenvolvedor apaixonado pelo meu trabalho, sempre estou
               procurando aprender mais e adquirir experiência, estou a procura de opurtinidades para me tornar um Dev Front-End cada vez melhor.
             </p>
@@ -51,21 +51,21 @@ function App() {
             <AiFillTwitterCircle />
           </div>
 
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 mt-20 overflow-hidden'>
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 mt-20 overflow-hidden md:w-96'>
             <img src={avatar} />
           </div>
 
         </section>
 
         <section>
-          <div>
+          <div className='text-center py-10'>
             <h3 className='text-3xl py-1'>O que eu utilizo</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>Desde que comecei minha jornada como programador essas sao algumas das ferramentas que aprendi a utilizar no meu dia a dia.</p>
           </div>
 
-          <div>
+          <div className='lg:flex lg:flex-wrap gap-10 lg:justify-center'>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
               <div className='text-6xl flex justify-center text-red-500 '>
                 <AiFillHtml5 />
               </div>
@@ -75,7 +75,7 @@ function App() {
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
               <div className='text-6xl flex justify-center text-sky-500 '>
                 <SiCss3 />
               </div>
@@ -85,7 +85,7 @@ function App() {
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
               <div className='text-6xl flex justify-center text-yellow-400 '>
                 <SiJavascript />
               </div>
@@ -95,7 +95,7 @@ function App() {
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
               <div className='text-6xl flex justify-center text-green-600 '>
                 <SiNodedotjs />
               </div>
@@ -105,7 +105,7 @@ function App() {
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
               <div className='text-6xl flex justify-center text-sky-400 '>
                 <DiReact />
               </div>
@@ -115,7 +115,7 @@ function App() {
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
               <div className='text-6xl flex justify-center text-sky-300 '>
                 <SiTailwindcss />
               </div>
@@ -125,7 +125,7 @@ function App() {
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
               <div className='text-6xl flex justify-center text-pink-400 '>
                 <SiSass />
               </div>
@@ -135,7 +135,7 @@ function App() {
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
               <div className='text-6xl flex justify-center text-red-400 '>
                 <DiGit />
               </div>
@@ -145,13 +145,13 @@ function App() {
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
               <div className='text-6xl flex justify-center  '>
                 <AiFillGithub />
               </div>
               <h3 className='text-lg font-medium py-2'>GitHub</h3>
               <p className='py-2 text-gray-800'>
-              O GitHub é uma plataforma online que utiliza o Git como base e oferece uma série de recursos adicionais para desenvolvedores de software, permitindo que eles armazenem, gerenciem, colaborem e compartilhem seus projetos de forma segura e eficiente, além de oferecer recursos adicionais que tornam o processo de desenvolvimento mais fácil e rápido.
+                O GitHub é uma plataforma online que utiliza o Git como base e oferece uma série de recursos adicionais para desenvolvedores de software, permitindo que eles armazenem, gerenciem, colaborem e compartilhem seus projetos de forma segura e eficiente, além de oferecer recursos adicionais que tornam o processo de desenvolvimento mais fácil e rápido.
               </p>
             </div>
 
@@ -160,33 +160,33 @@ function App() {
         </section>
 
         <section>
-          <div>
+          <div className='text-center py-10'>
             <h3 className='text-3xl py-1'>Portifolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>Aqui estão alguns projetos que eu mesmo fiz, colocando em pratica meus conhecimentos</p>
           </div>
 
-          <div>
-            <div>
-              <img src={calculadora} />
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div className='basis-1/3 flex-1'>
+              <img className='rounded-lg object-cover' width={"100%"} src={calculadora} />
             </div>
-            <div>
-              <img src={frase} />
+            <div className='basis-1/3 flex-1'>
+              <img className='rounded-lg object-cover' width={"100%"} src={frase} />
             </div>
-            <div>
-              <img src={gastos} />
+            <div className='basis-1/3 flex-1'>
+              <img className='rounded-lg object-cover' width={"100%"} src={gastos} />
             </div>
-            <div>
-              <img src={formulario} />
+            <div className='basis-1/3 flex-1'>
+              <img className='rounded-lg object-cover' width={"100%"} src={formulario} />
             </div>
-            <div>
-              <img src={links} />
+            <div className='basis-1/3 flex-1'>
+              <img className='rounded-lg object-cover' width={"100%"} src={links} />
             </div>
-            <div>
-              <img src={newsletter} />
+            <div className='basis-1/3 flex-1'>
+              <img className='rounded-lg object-cover' width={"100%"} src={newsletter} />
             </div>
           </div>
         </section>
-      
+
       </main>
     </div>
   )
