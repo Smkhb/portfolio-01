@@ -3,7 +3,18 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillGithub, AiFillLinkedin, AiFillHtml5 } from "react-icons/ai";
 import { SiCss3, SiJavascript, SiNodedotjs, SiTailwindcss, SiSass } from "react-icons/si";
 import { DiReact, DiGit } from "react-icons/di";
-import avatar from '../images/smk-avatar.png'
+import avatar from '../images/smk-avatar.png';
+import calculadora from '../images/calculadora.png';
+import formulario from '../images/form.png';
+import gastos from '../images/gastos.png';
+import links from '../images/links.png';
+import newsletter from '../images/newsletter.png';
+import frase from '../images/quote.png';
+
+
+
+
+
 
 function App() {
 
@@ -145,7 +156,37 @@ function App() {
             </div>
 
           </div>
+
         </section>
+
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Portifolio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800'>Aqui estão alguns projetos que eu mesmo fiz, colocando em pratica meus conhecimentos</p>
+          </div>
+
+          <div>
+            <div>
+              <img src={calculadora} />
+            </div>
+            <div>
+              <img src={frase} />
+            </div>
+            <div>
+              <img src={gastos} />
+            </div>
+            <div>
+              <img src={formulario} />
+            </div>
+            <div>
+              <img src={links} />
+            </div>
+            <div>
+              <img src={newsletter} />
+            </div>
+          </div>
+        </section>
+      
       </main>
     </div>
   )
