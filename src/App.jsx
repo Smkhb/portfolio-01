@@ -45,13 +45,13 @@ function App() {
 
           <div className='text-5xl flex justify-center gap-16 py-4 text-gray-600'>
             <a className='cursor-pointer' href='https://www.linkedin.com/in/samuelbernardo/' target={'_blank'}>
-              <AiFillLinkedin />
+              <AiFillLinkedin className='dark:hover:text-slate-50'/>
             </a>
             <a className='cursor-pointer' href='https://github.com/smkhb' target={'_blank'}>
-              <AiFillGithub />
+              <AiFillGithub className='dark:hover:text-slate-50'/>
             </a>
             <a className='cursor-pointer' href='https://twitter.com/Smk_hb' target={'_blank'}>
-              <AiFillTwitterCircle />
+              <AiFillTwitterCircle className='dark:hover:text-slate-50'/>
             </a>
           </div>
 
