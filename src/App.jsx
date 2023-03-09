@@ -36,9 +36,9 @@ function App() {
 
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Samuel Bernardo</h2>
-            <h3 className='text-2xl py-2 md:text-3xl'>Desenvolvedor Front-End Jr.</h3>
-            <p className='text-md py-5 leading-8 text-gray-600 md:text-xl max-w-xl mx-auto'>
-              sou um Desenvolvedor apaixonado pelo meu trabalho, sempre estou
+            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Desenvolvedor Front-End Jr</h3>
+            <p className='text-md py-5 leading-8 text-gray-600 md:text-xl max-w-xl mx-auto dark:text-slate-300'>
+              Sou um Desenvolvedor apaixonado pelo meu trabalho, sempre estou
               procurando aprender mais e adquirir experiência, estou a procura de opurtinidades para me tornar um Dev Front-End cada vez melhor.
             </p>
           </div>
@@ -63,98 +63,98 @@ function App() {
 
         <section>
           <div className='text-center py-10'>
-            <h3 className='text-3xl py-1'>O que eu utilizo</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Desde que comecei minha jornada como programador essas sao as ferramentas que aprendi a utilizar no meu dia a dia.</p>
+            <h3 className='text-3xl py-1 dark:text-teal-600'>O que eu utilizo</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-slate-300'>Desde que comecei minha jornada como programador essas sao as ferramentas que aprendi a utilizar no meu dia a dia.</p>
           </div>
 
           <div className='lg:flex lg:flex-wrap gap-10 lg:justify-center'>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3 dark:bg-cyan-900 dark:shadow-slate-700'>
               <div className='text-6xl flex justify-center text-red-500 '>
                 <AiFillHtml5 />
               </div>
-              <h3 className='text-lg font-medium py-2'>HTML</h3>
-              <p className='py-2 text-gray-800'>
+              <h3 className='text-lg font-medium py-2 '>HTML</h3>
+              <p className='py-2 text-gray-800 dark:text-slate-300'>
                 É a base da web moderna e é utilizado para criar todos os tipos de sites e aplicações web, desde páginas estáticas até sistemas complexos de gerenciamento de conteúdo. Sem o HTML, a internet como a conhecemos hoje não seria possível.
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3 dark:bg-cyan-900 dark:shadow-slate-700'>
               <div className='text-6xl flex justify-center text-sky-500 '>
                 <SiCss3 />
               </div>
               <h3 className='text-lg font-medium py-2'>CSS</h3>
-              <p className='py-2 text-gray-800'>
+              <p className='py-2 text-gray-800 dark:text-slate-300'>
                 É uma linguagem de estilo que permite que os desenvolvedores controlem a aparência visual de páginas web. Ele é uma parte essencial do desenvolvimento web moderno e é utilizado em conjunto com o HTML e outras tecnologias para criar páginas web que sejam atraentes e funcionais.
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3 dark:bg-cyan-900 dark:shadow-slate-700'>
               <div className='text-6xl flex justify-center text-yellow-400 '>
                 <SiJavascript />
               </div>
               <h3 className='text-lg font-medium py-2'>Javascript</h3>
-              <p className='py-2 text-gray-800'>
+              <p className='py-2 text-gray-800 dark:text-slate-300'>
                 É uma linguagem de estilo que permite que os desenvolvedores controlem a aparência visual de páginas web. Ele é uma parte essencial do desenvolvimento web moderno e é utilizado em conjunto com o HTML e outras tecnologias para criar páginas web que sejam atraentes e funcionais.
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3 dark:bg-cyan-900 dark:shadow-slate-700'>
               <div className='text-6xl flex justify-center text-green-600 '>
                 <SiNodedotjs />
               </div>
               <h3 className='text-lg font-medium py-2'>Node.Js</h3>
-              <p className='py-2 text-gray-800'>
+              <p className='py-2 text-gray-800 dark:text-slate-300'>
                 É uma plataforma de desenvolvimento em JavaScript que permite criar aplicações web escaláveis e de alto desempenho. Ele é compatível com uma ampla gama de bibliotecas e módulos e tem uma ampla comunidade de desenvolvedores e recursos disponíveis. Ele é usado para a criação de aplicações web completas, ferramentas de linha de comando, aplicativos de desktop e jogos.
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3 dark:bg-cyan-900 dark:shadow-slate-700'>
               <div className='text-6xl flex justify-center text-sky-400 '>
                 <DiReact />
               </div>
               <h3 className='text-lg font-medium py-2'>React.Js</h3>
-              <p className='py-2 text-gray-800'>
+              <p className='py-2 text-gray-800 dark:text-slate-300'>
                 É uma biblioteca de desenvolvimento de interfaces de usuário para aplicações web. Ele permite que os desenvolvedores criem componentes reutilizáveis e modulares, atualizem a interface de forma rápida e eficiente, e é compatível com outras tecnologias e bibliotecas. Ele é uma escolha popular para o desenvolvimento de aplicações web modernas e eficientes.
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3 dark:bg-cyan-900 dark:shadow-slate-700'>
               <div className='text-6xl flex justify-center text-sky-300 '>
                 <SiTailwindcss />
               </div>
               <h3 className='text-lg font-medium py-2'>Tailwind</h3>
-              <p className='py-2 text-gray-800'>
+              <p className='py-2 text-gray-800 dark:text-slate-300'>
                 É um framework de estilo para a criação de interfaces de usuário em aplicações web. Ele é projetado para tornar a criação de estilos em aplicações web mais eficiente e fácil para os desenvolvedores.
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3 dark:bg-cyan-900 dark:shadow-slate-700'>
               <div className='text-6xl flex justify-center text-pink-400 '>
                 <SiSass />
               </div>
               <h3 className='text-lg font-medium py-2'>Sass</h3>
-              <p className='py-2 text-gray-800'>
+              <p className='py-2 text-gray-800 dark:text-slate-300'>
                 O SASS é uma extensão do CSS que permite aos desenvolvedores escrever estilos de forma mais eficiente e organizada. Ele é projetado para tornar a escrita de estilos em aplicações web mais fácil e rápida.
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3 dark:bg-cyan-900 dark:shadow-slate-700'>
               <div className='text-6xl flex justify-center text-red-400 '>
                 <DiGit />
               </div>
               <h3 className='text-lg font-medium py-2'>Git</h3>
-              <p className='py-2 text-gray-800'>
+              <p className='py-2 text-gray-800 dark:text-slate-300'>
                 É uma ferramenta de controle de versão que ajuda os desenvolvedores de software a gerenciar e controlar as alterações feitas em seus projetos. Essencial para o trabalho colaborativo em projetos de desenvolvimento de software, permitindo que várias pessoas trabalhem juntas sem que haja conflitos e sem perder o histórico de alterações feitas no código.
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 basis-1/3 dark:bg-cyan-900 dark:shadow-slate-700'>
               <div className='text-6xl flex justify-center  '>
                 <AiFillGithub />
               </div>
               <h3 className='text-lg font-medium py-2'>GitHub</h3>
-              <p className='py-2 text-gray-800'>
+              <p className='py-2 text-gray-800 dark:text-slate-300'>
                 O GitHub é uma plataforma online que utiliza o Git como base e oferece uma série de recursos adicionais para desenvolvedores de software, permitindo que eles armazenem, gerenciem, colaborem e compartilhem seus projetos de forma segura e eficiente, além de oferecer recursos adicionais que tornam o processo de desenvolvimento mais fácil e rápido.
               </p>
             </div>
@@ -165,8 +165,8 @@ function App() {
 
         <section>
           <div className='text-center py-10'>
-            <h3 className='text-3xl py-1'>Meu Portfólio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Aqui estão alguns projetos que eu mesmo fiz, colocando em pratica os conhecimentos adquiridos.</p>
+            <h3 className='text-3xl py-1 text-teal-600'>Meu Portfólio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-slate-300'>Aqui estão alguns projetos que eu mesmo fiz, colocando em pratica os conhecimentos adquiridos.</p>
           </div>
 
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
