@@ -17,20 +17,19 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={darkMode ? 'dark': ''}>
+    <div className={darkMode ? 'dark' : ''}>
 
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
 
         <section className=' min-h-screen'>
 
-          <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className=' text-xl'>Samuel Bernardo</h1>
+          <nav className='py-10 mb-12 flex justify-end'>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
               </li>
               <li>
-                <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a>
+                <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' target={'_blank'} href='https://drive.google.com/file/d/1DczJsGgTBrUzOBNnhAYFV4naT1ALOMVh/view?usp=share_link'>Resume</a>
               </li>
             </ul>
           </nav>
@@ -45,9 +44,15 @@ function App() {
           </div>
 
           <div className='text-5xl flex justify-center gap-16 py-4 text-gray-600'>
-            <AiFillLinkedin />
-            <AiFillGithub />
-            <AiFillTwitterCircle />
+            <a className='cursor-pointer' href='https://www.linkedin.com/in/samuelbernardo/' target={'_blank'}>
+              <AiFillLinkedin />
+            </a>
+            <a className='cursor-pointer' href='https://github.com/smkhb' target={'_blank'}>
+              <AiFillGithub />
+            </a>
+            <a className='cursor-pointer' href='https://twitter.com/Smk_hb' target={'_blank'}>
+              <AiFillTwitterCircle />
+            </a>
           </div>
 
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 mt-20 overflow-hidden md:w-96'>
