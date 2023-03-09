@@ -1,6 +1,6 @@
 import './App.css'
 import { useState } from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillGithub, AiFillLinkedin, AiFillHtml5 } from "react-icons/ai";
 import { SiCss3, SiJavascript, SiNodedotjs, SiTailwindcss, SiSass } from "react-icons/si";
 import { DiReact, DiGit } from "react-icons/di";
@@ -25,9 +25,16 @@ function App() {
 
           <nav className='py-10 mb-12 flex justify-end'>
             <ul className='flex items-center'>
+            {darkMode ? (
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-gray-600' />
               </li>
+            ) : (
+              <li>
+                <BsFillSunFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
+              </li>
+            )}
+
               <li>
                 <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' target={'_blank'} href='https://drive.google.com/file/d/1DczJsGgTBrUzOBNnhAYFV4naT1ALOMVh/view?usp=share_link'>Resume</a>
               </li>
