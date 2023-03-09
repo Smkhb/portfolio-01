@@ -64,7 +64,7 @@ function App() {
         <section>
           <div className='text-center py-10'>
             <h3 className='text-3xl py-1'>O que eu utilizo</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>Desde que comecei minha jornada como programador essas sao algumas das ferramentas que aprendi a utilizar no meu dia a dia.</p>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Desde que comecei minha jornada como programador essas sao as ferramentas que aprendi a utilizar no meu dia a dia.</p>
           </div>
 
           <div className='lg:flex lg:flex-wrap gap-10 lg:justify-center'>
@@ -165,28 +165,40 @@ function App() {
 
         <section>
           <div className='text-center py-10'>
-            <h3 className='text-3xl py-1'>Portifolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>Aqui estão alguns projetos que eu mesmo fiz, colocando em pratica meus conhecimentos</p>
+            <h3 className='text-3xl py-1'>Meu Portfólio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Aqui estão alguns projetos que eu mesmo fiz, colocando em pratica os conhecimentos adquiridos.</p>
           </div>
 
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <img className='rounded-lg object-cover' width={"100%"} src={calculadora} />
+              <a href='https://smk-calculator-project.vercel.app/' target={'_blank'}>
+                <img className='rounded-lg object-cover' width={"100%"} src={calculadora} />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <img className='rounded-lg object-cover' width={"100%"} src={frase} />
+              <a href='https://smk-quote-generator.vercel.app/' target={'_blank'}>
+                <img className='rounded-lg object-cover' width={"100%"} src={frase} />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <img className='rounded-lg object-cover' width={"100%"} src={gastos} />
+              <a href='https://smk-lista-de-gastos.vercel.app/' target={'_blank'}>
+                <img className='rounded-lg object-cover' width={"100%"} src={gastos} />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <img className='rounded-lg object-cover' width={"100%"} src={formulario} />
+              <a href='https://smk-basic-form.vercel.app/' target={'_blank'}>
+                <img className='rounded-lg object-cover' width={"100%"} src={formulario} />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <img className='rounded-lg object-cover' width={"100%"} src={links} />
+              <a href='https://smk-meus-links.vercel.app/' target={'_blank'}>
+                <img className='rounded-lg object-cover' width={"100%"} src={links} />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <img className='rounded-lg object-cover' width={"100%"} src={newsletter} />
+              <a href='https://smk-newsletter.vercel.app/' target={'_blank'}>
+                <img className='rounded-lg object-cover' width={"100%"} src={newsletter} />
+              </a>
             </div>
           </div>
         </section>
