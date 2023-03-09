@@ -1,6 +1,7 @@
 import './App.css'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import avatar from '../images/smk-avatar.png'
 
 function App() {
 
@@ -36,6 +37,10 @@ function App() {
             <AiFillLinkedin />
             <AiFillGithub />
             <AiFillTwitterCircle />
+          </div>
+
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 mt-20 overflow-hidden'>
+            <img src={avatar} />
           </div>
 
         </section>
