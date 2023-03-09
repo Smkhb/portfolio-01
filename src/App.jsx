@@ -28,8 +28,7 @@ function App() {
             <h3 className='text-2xl py-2'>Desenvolvedor Front-End Jr.</h3>
             <p className='text-md py-5 leading-8 text-gray-600'>
               sou um Desenvolvedor apaixonado pelo meu trabalho, sempre estou
-              procurando aprender mais e adquirir mais experiência, por isso peço que vocês me ajudem a
-              ser um Dev Front-End cada vez melhor.
+              procurando aprender mais e adquirir experiência, estou a procura de opurtinidades para me tornar um Dev Front-End cada vez melhor.
             </p>
           </div>
 
