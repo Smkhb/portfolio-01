@@ -1,4 +1,5 @@
 import './App.css'
+import { useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillGithub, AiFillLinkedin, AiFillHtml5 } from "react-icons/ai";
 import { SiCss3, SiJavascript, SiNodedotjs, SiTailwindcss, SiSass } from "react-icons/si";
@@ -11,16 +12,14 @@ import links from '../images/links.png';
 import newsletter from '../images/newsletter.png';
 import frase from '../images/quote.png';
 
-
-
-
-
-
 function App() {
 
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <div>
-      <main className='bg-white px-10 md:px-20 lg:px-40'>
+    <div className={darkMode ? 'dark': ''}>
+
+      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
 
         <section className=' min-h-screen'>
 
@@ -28,7 +27,7 @@ function App() {
             <h1 className=' text-xl'>Samuel Bernardo</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill className=' cursor-pointer text-2xl' />
+                <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
               </li>
               <li>
                 <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a>
