@@ -40,11 +40,11 @@ function App() {
               </li>
             </ul>
           </nav>
-
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full overflow-hidden md:w-96'>
+            <img className='text-center' src={avatar} />
+          </div>
           <div className='text-center p-4'>
-            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full overflow-hidden md:w-96'>
-              <img className='text-center' src={avatar} />
-            </div>
+
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Samuel Bernardo <span className=' block'>💻</span></h2>
 
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Desenvolvedor Front-End Jr</h3>
