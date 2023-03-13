@@ -23,26 +23,30 @@ function App() {
 
         <section className=' min-h-screen'>
 
-          <nav className='py-10 mb-12 flex justify-end'>
+          <nav className='py-10 flex justify-end'>
             <ul className='flex items-center'>
-            {darkMode ? (
-              <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-gray-600' />
-              </li>
-            ) : (
-              <li>
-                <BsFillSunFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
-              </li>
-            )}
+              {darkMode ? (
+                <li>
+                  <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-gray-600' />
+                </li>
+              ) : (
+                <li>
+                  <BsFillSunFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
+                </li>
+              )}
 
               <li>
-                <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' target={'_blank'} href='https://drive.google.com/file/d/1DczJsGgTBrUzOBNnhAYFV4naT1ALOMVh/view?usp=share_link'>Resume</a>
+                <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' target={'_blank'} href='https://drive.google.com/file/d/13lb7ngbzYdzBtgb355ogqR7KD3BuWnKZ/view?usp=share_link'>Resume</a>
               </li>
             </ul>
           </nav>
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full overflow-hidden md:w-96'>
+            <img className='text-center' src={avatar} />
+          </div>
+          <div className='text-center p-4'>
 
-          <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Samuel Bernardo <span className=''>💻</span></h2>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Samuel Bernardo <span className=' block'>💻</span></h2>
+
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Desenvolvedor Front-End Jr</h3>
             <p className='text-md py-5 leading-8 text-gray-600 md:text-xl max-w-xl mx-auto dark:text-slate-300'>
               Sou um Desenvolvedor apaixonado pelo meu trabalho, sempre estou
@@ -52,19 +56,17 @@ function App() {
 
           <div className='text-5xl flex justify-center gap-16 py-4 text-gray-600'>
             <a className='cursor-pointer' href='https://www.linkedin.com/in/samuelbernardo/' target={'_blank'}>
-              <AiFillLinkedin className='dark:hover:text-slate-50'/>
+              <AiFillLinkedin className='dark:hover:text-slate-50' />
             </a>
             <a className='cursor-pointer' href='https://github.com/smkhb' target={'_blank'}>
-              <AiFillGithub className='dark:hover:text-slate-50'/>
+              <AiFillGithub className='dark:hover:text-slate-50' />
             </a>
             <a className='cursor-pointer' href='https://twitter.com/Smk_hb' target={'_blank'}>
-              <AiFillTwitterCircle className='dark:hover:text-slate-50'/>
+              <AiFillTwitterCircle className='dark:hover:text-slate-50' />
             </a>
           </div>
 
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 mt-20 overflow-hidden md:w-96'>
-            <img src={avatar} />
-          </div>
+
 
         </section>
 
