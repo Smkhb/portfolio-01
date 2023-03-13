@@ -23,7 +23,7 @@ function App() {
 
         <section className=' min-h-screen'>
 
-          <nav className='py-10 mb-12 flex justify-end'>
+          <nav className='py-10 flex justify-end'>
             <ul className='flex items-center'>
               {darkMode ? (
                 <li>
@@ -41,11 +41,12 @@ function App() {
             </ul>
           </nav>
 
-          <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Samuel Bernardo <span className=''>💻</span></h2>
-            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 mt-20 overflow-hidden md:w-96'>
-              <img src={avatar} />
+          <div className='text-center p-4'>
+            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full overflow-hidden md:w-96'>
+              <img className='text-center' src={avatar} />
             </div>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Samuel Bernardo <span className=' block'>💻</span></h2>
+
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Desenvolvedor Front-End Jr</h3>
             <p className='text-md py-5 leading-8 text-gray-600 md:text-xl max-w-xl mx-auto dark:text-slate-300'>
               Sou um Desenvolvedor apaixonado pelo meu trabalho, sempre estou
